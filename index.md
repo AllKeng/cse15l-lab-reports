@@ -1,4 +1,9 @@
 ## Lab Report 1  
+Insert screenshot steps here 
+* doing ssh
+* doing scp 
+* doing keygen
+* doing whatever efficiency is 
   
 ## Lab Report 2    
 Link to [Markdown](https://github.com/AllKeng/cse15l-lab-reports/blob/main/markDownStuff.md) examples.  
