@@ -1,3 +1,6 @@
+# _Remote Access & Easability_
+**Here's a general tutorial on working with Visual Studio Code, SSH, Keys, and Optimization** 
+
 # Downloading Visual Studio Code & SSH
 **Step 1. Click on the hyperlink to download [VSCode](https://code.visualstudio.com/) here**  
 **Step 2. Run the installer, accept the agreement, and click next until it says install. Then press _Finish_.**   
@@ -33,7 +36,7 @@
 * _You are now connected to the Remote Server_
 
 # Command Testing
-There are many different commands you could try. I'll list a couple below.  
+There are many different commands you could try. I'll list a couple below and there are many more relevant ones [here](https://www.guru99.com/must-know-linux-commands.html).  
 * `$ cd` : changes directories  
 * `$ ls` : list directories 
   1. There are also hidden directories that could be found by doing `$ ls -a`
