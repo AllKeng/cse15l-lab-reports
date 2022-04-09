@@ -1,13 +1,13 @@
 # Downloading Visual Studio Code & SSH
 **Step 1. Click on the hyperlink to download [VSCode](https://code.visualstudio.com/) here**  
 **Step 2. Run the installer, accept the agreement, and click next until it says install. Then press _Finish_.**   
-![CompleteInstall](1VSCInstallerFinish.png)
+![CompleteInstall](1VSCInstallerFinish.png)  
 **Step 3. Your computer needs to download the OpenSSH components. On Windows, you can go to the search bar and click on the gear for settings.**
 **Step 4. Click on `Apps` or `Applications`. Look for an optional features category.**   
 * _Note: you may need to lookup `optional features` from the search bar, if it is not clearly visible_  
 
 **Step 5. Look for `OpenSSH Client` and `OpenSSH Server`, you may already have one or both of them already installed.**
-![WindowsSSH](1OpenSSH.JPG)
+![WindowsSSH](1OpenSSH.JPG)  
 **Step 6. If you need to download them, click on add a feature, search them up, and press install. It may take a couple minutes.**
 
 ### _**SSH is now present on your computer**_  
@@ -44,8 +44,8 @@ There are many different commands you could try. I'll list a couple below.
 * `$ cat` : creates /access a file with content 
 * `$ rm [fileName] ` : removes/deletes
     1. can do `$ rm -d [directoryName]` to delete an empty directory
-* `$ echo [text]` : prints text to terminal
-![Commands](1CommandTesting.JPG)
+* `$ echo [text]` : prints text to terminal  
+![Commands](1CommandTesting.JPG)  
 * **To logout, you can do _Ctrl + D_ or run the command `$ exit`**
 
 # Moving files with `scp`
@@ -85,7 +85,9 @@ ex: `scp \Users\allen\.ssh\id_rsa.pub cs15lsp22aqi@ieng6.ucsd.edu:~/.ssh/authori
 # Optimization and Efficiency
 **You are capable of running commands in the remote server and then returning to the client quickly. This is done by running commands in the format of  
 `$ ssh [csEmail] "[command]"`
-* Example: ![Fast](1EfficientCoding.JPG)
+* Example:   
+* ![Fast](1EfficientCoding.JPG)
 
 **You can also run multiple commands in the same line/ at the same time**  
-* Example: ![Fast](1EfficientCoding2.JPG)
+* Example:  
+*  ![Fast](1EfficientCoding2.JPG)
