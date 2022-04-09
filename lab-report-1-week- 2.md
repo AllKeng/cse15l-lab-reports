@@ -26,7 +26,7 @@
    RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.  
    Are you sure you want to continue connecting
     (yes/no/[fingerprint])?`
-  * Type in `yes` 
+  * Type in `yes` or `y`
 
 **Step 6. It should then prompt you to enter a password. Note that when you type, your password will not be visible.**  
 **Step 7. You should see a screen that looks like ![LoginScreen](1SSHLoginScreen.JPG)**  
@@ -54,11 +54,12 @@ There are many different commands you could try. I'll list a couple below.
 2. Click on _New File_ and create a java file. For this example, I'll use `WhereAmI.java` with the code of
 
     * class WhereAmI {  
-    public static void main(String[] args) {   System.out.println(System.getProperty("os.name"));
-    System.out.println(System.getProperty("user.name"));
-    System.out.println(System.getProperty("user.home"));
-    System.out.println(System.getProperty("user.dir"));  
-    }  
+        public static void main(String[] args) { 
+            System.out.println(System.getProperty("os.name"));
+            System.out.println(System.getProperty("user.name"));
+            System.out.println(System.getProperty("user.home"));
+            System.out.println(System.getProperty("user.dir"));  
+    }
 }  
 3. Run your file in the local terminal using `javac` and `java`. 
 4. Type in `$ scp [fileName].java [csEmailAddress]:~/`
@@ -67,7 +68,7 @@ There are many different commands you could try. I'll list a couple below.
 ![Sent](1SCP1.JPG)  
 on the right side of the terminal
 6. Log back onto the server using `$ ssh`
-7. Type in ls and the file should show up. 
+7. Type in `ls` and the file should show up. 
 8. Run the `javac` and `java` command onto your file. It will work because it now exists on the server. ![SCP2](1SCP2.JPG)
 
 # SSH Keys (no password logins)
@@ -83,11 +84,11 @@ ex: `scp \Users\allen\.ssh\id_rsa.pub cs15lsp22aqi@ieng6.ucsd.edu:~/.ssh/authori
 ![KeyDone](1SSHKeyDone.JPG)
 
 # Optimization and Efficiency
-**You are capable of running commands in the remote server and then returning to the client quickly. This is done by running commands in the format of  
+**You are capable of running commands in the remote server and then returning to the client quickly. This is done by running commands in the format of**  
 `$ ssh [csEmail] "[command]"`
 * Example:   
 * ![Fast](1EfficientCoding.JPG)
 
 **You can also run multiple commands in the same line/ at the same time**  
 * Example:  
-*  ![Fast](1EfficientCoding2.JPG)
+  ![Fast](1EfficientCoding2.JPG)
