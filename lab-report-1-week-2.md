@@ -98,3 +98,6 @@ ex: `scp \Users\allen\.ssh\id_rsa.pub cs15lsp22aqi@ieng6.ucsd.edu:~/.ssh/authori
   ![Fast](1EfficientCoding2.JPG)
   
 **Using the up arrow key will display the previous commands you've run, so you don't have to retype it if needed.**
+
+# _Final Notes_
+**I hope you found this tutorial useful and clear for each process regarding remote access and efficiency. I aim to support your understanding of these subjects** 
