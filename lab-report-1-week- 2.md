@@ -53,14 +53,14 @@ There are many different commands you could try. I'll list a couple below.
 1. Create a file in your local computer in VSCode, by right clicking in the gray space to the right of the left bar. 
 2. Click on _New File_ and create a java file. For this example, I'll use `WhereAmI.java` with the code of
 
-    * class WhereAmI {  
-        public static void main(String[] args) { 
-            System.out.println(System.getProperty("os.name"));
-            System.out.println(System.getProperty("user.name"));
-            System.out.println(System.getProperty("user.home"));
-            System.out.println(System.getProperty("user.dir"));  
-    }
-}  
+    * class WhereAmI {    
+        public static void main(String[] args) {  
+        System.out.println(System.getProperty("os.name"));  
+        System.out.println(System.getProperty("user.name"));  
+        System.out.println(System.getProperty("user.home"));  
+        System.out.println(System.getProperty("user.dir"));    
+    }  
+}    
 3. Run your file in the local terminal using `javac` and `java`. 
 4. Type in `$ scp [fileName].java [csEmailAddress]:~/`
     * Example: `$ scp WhereAmI.java s15lsp22zz@ieng6.ucsd.edu:~/`
