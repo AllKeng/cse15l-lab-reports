@@ -8,7 +8,7 @@
 
 **Step 5. Look for `OpenSSH Client` and `OpenSSH Server`, you may already have one or both of them already installed.**
 ![WindowsSSH](1OpenSSH.JPG)  
-**Step 6. If you need to download them, click on add a feature, search them up, and press install. It may take a couple minutes.**
+**Step 6. If you need to download them, click on `Add a feature`, search them up, and press `Install`. It may take a couple minutes.**
 
 ### _**SSH is now present on your computer**_  
     
@@ -21,7 +21,7 @@
 * _You may need to reset the password to that account, so follow the steps it provides._ 
 
 **Step 5. Type  `$ ssh [cs-email address] ` and press enter**   
-  * _if it is your first time, it will prompt a message similar to_  
+  * _If it is your first time, it will prompt a message similar to_  
   `The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.  
    RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.  
    Are you sure you want to continue connecting
@@ -78,7 +78,8 @@ on the right side of the terminal
 2. Login onto the remote server and run  `$ mkdir .ssh`, this will make a hidden directory to hold your ssh key.
 3. Logout using `$ exit` or _Ctrl + D_ 
 4. Copy over your public ssh key using the command  
-`$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys ` You would fill in "user-name" with your local username, and replace the cs email with yours. 
+`$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys `  
+You would fill in "user-name" with your local username, and replace the cs email with yours.  
 ex: `scp \Users\allen\.ssh\id_rsa.pub cs15lsp22aqi@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 5. Now the password will no longer be needed, since the remote server "remembers" your public key. The image cuts off the email part, but this is what it should look like. 
 ![KeyDone](1SSHKeyDone.JPG)
