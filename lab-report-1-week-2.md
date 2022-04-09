@@ -1,5 +1,5 @@
 # _Remote Access & Easability_
-**Here's a general tutorial on installing Visual Studio Code, SSH, Keys, and being efficient. ** 
+**Here's a general tutorial on installing Visual Studio Code, SSH, Keys, and being efficient.** 
 
 # Downloading Visual Studio Code & SSH
 **Step 1. Click on the hyperlink to download [VSCode](https://code.visualstudio.com/) here**  
