@@ -96,3 +96,5 @@ ex: `scp \Users\allen\.ssh\id_rsa.pub cs15lsp22aqi@ieng6.ucsd.edu:~/.ssh/authori
 **You can also run multiple commands in the same line/ at the same time**  
 * Example:  
   ![Fast](1EfficientCoding2.JPG)
+  
+**Using the up arrow key will display the previous commands you've run, so you don't have to retype it if needed.**
