@@ -1,5 +1,6 @@
 ## [Lab Report 1 - Remote Access](https://allkeng.github.io/cse15l-lab-reports/lab-report-1-week-2.html)  
  
+## [Lab Report 2 - Debugging]()   
   
 ## Markdown Content    
 Link to [Markdown](https://github.com/AllKeng/cse15l-lab-reports/blob/main/markDownStuff.md) examples.  
