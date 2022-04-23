@@ -75,11 +75,11 @@ The code needed to check if the String enclosed by the parentheses contained a `
 
   
 ### **Symptom of bug in terminal:**
-* Expected:  *_empty list_*
+* Expected:  *empty list*
 ```
 []
 ```  
-* Actual:    *_not a real link_*
+* Actual:    *not a real link*
 ```
 [which is the pythagorean theorem]
 ```  
