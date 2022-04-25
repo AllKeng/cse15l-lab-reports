@@ -11,6 +11,7 @@ The code needed to break the loop when `[]` braces were no longer found, once it
   
 ### ***Link to the test file for a failure-inducing input:***    
 * [try-break.md](https://github.com/AllKeng/markdown-parser/blob/main/try-break.md) 
+* [Commit link](https://github.com/AllKeng/markdown-parser/commit/a6fe4c5e5abcbdc990a79b9cff9e2fd77b5b95f4)
   
 ![Try-Break](2TryBreak.JPG) 
 
@@ -42,7 +43,8 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 The code needed to check for `.png` or `.jpg` and then ignore those parts when found. 
   
 ### ***Link to the test file for a failure-inducing input:***   
-* [testfile3.md](https://github.com/AllKeng/markdown-parser/blob/main/testfile3.md)  
+* [testfile3.md](https://github.com/AllKeng/markdown-parser/blob/main/testfile3.md)
+* [Commit Link](https://github.com/AllKeng/markdown-parser/commit/95cdc7a0dafee78c4610fe7c1273167b62228d7b)  
 
 ![TestFile3](2TestFile3.JPG)
 
@@ -69,7 +71,8 @@ The code needed to check for `.png` or `.jpg` and then ignore those parts when f
 The code needed to check if the String enclosed by the parentheses contained a `.` followed by additional characters. Since that's what a link contains. 
   
 ### ***Link to the test file for a failure-inducing input:***   
-* [testfarlink.md](https://github.com/AllKeng/markdown-parser/blob/main/testfarlink.md)  
+* [testfarlink.md](https://github.com/AllKeng/markdown-parser/blob/main/testfarlink.md)
+* [Commit Link](https://github.com/AllKeng/markdown-parser/commit/46712ebfbec1b2068579646c43b0d2890f2cb281)  
 
 ![testfarlink](2TestFarLink.JPG)
 
