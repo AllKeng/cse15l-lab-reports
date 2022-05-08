@@ -52,7 +52,7 @@ git push origin main
 ```
 ![CMDsWork](3gitCMDsWork.JPG)
 
-* __Git Commit Link:__ https://github.com/AllKeng/markdown-parser/commit/92fee54ec239cd536bc1726de13415bd3b8cd1c1
+* __Git Commit Link:__ [https://github.com/AllKeng/markdown-parser/commit/92fee54ec239cd536bc1726de13415bd3b8cd1c1](https://github.com/AllKeng/markdown-parser/commit/92fee54ec239cd536bc1726de13415bd3b8cd1c1)
 
 
 
