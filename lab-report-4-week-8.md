@@ -10,7 +10,7 @@
     *I looked at the preview of the markdown and determined expected values by hovering over any of the blue links.*  
     
     **<span style="color:gold">Example:**  
-    
+
     ![ex](4exampleOfExpectedLink.JPG)
 
 # <span style="color:Cyan">Snippet 1
@@ -96,7 +96,8 @@
     ```
     **Expected:** [a.com(())]  
 
-    ![Snip2Part2](4snippet2part2.JPG)
+    ![Snip2Part2](4snippet2part2.JPG)  
+    
     **<span style="color:red">Mine Failed</span>**  
 
     ![fail](4snip2part2fail.JPG)   
