@@ -32,7 +32,7 @@
 * I think a small change that might fix this would be checking if backtick characters exist before the openBracket, and if so skip to the next iteration of the while loop with a currentIndex after the openBracket. The backtick is only significant if it is a character before the openBracket.   
   **We also might need to check if its already a closed set or just a single.**
 
-**<span style="color:gold">Example:**  
+<span style="color:gold">Example:  
 
   ![Example](4fixGraveProblem.JPG)  
 
