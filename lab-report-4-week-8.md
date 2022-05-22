@@ -8,9 +8,7 @@
 [CommonMark Demo Site](https://spec.commonmark.org/dingus/)
 
     *I looked at the preview of the markdown and determined expected values by hovering over any of the blue links.*  
-    
-    **<span style="color:gold">Example:**  
-
+      
     ![ex](4exampleOfExpectedLink.JPG)
 
 # <span style="color:Cyan">Snippet 1
@@ -32,7 +30,8 @@
         ![fail](4theirs411fail.JPG)  
     
 * I think a small change that might fix this would be checking if backtick characters exist before the openBracket, and if so skip to the next iteration of the while loop with a currentIndex after the openBracket. The backtick is only significant if it is a character before the openBracket.   
-  **We also might need to check if its already a closed set or just a single.**   
+  **We also might need to check if its already a closed set or just a single.**
+  
   **<span style="color:gold">Example:**  
 
   ![Example](4fixGraveProblem.JPG)  
