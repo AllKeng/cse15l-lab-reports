@@ -25,7 +25,7 @@ $ vimdiff my-markdown-parser/results.txt cse15lsp22-markdown-parser/results.txt
 *(using `vimdiff` to see differences in output)*
 
 
-# **<span style="color:aqua"> Discussing two testfiles that had different outputs**
+# <span style="color:aqua">Discussing two testfiles that had different outputs
 
 * `test-files/342.md`
 
@@ -45,7 +45,7 @@ $ vimdiff my-markdown-parser/results.txt cse15lsp22-markdown-parser/results.txt
 [not a `link](/foo`)
 ```
 
-**<span style="color:lime">My implementation is correct,<span style="color:red"> while the given implementation gives the wrong output.**
+<span style="color:lime">My implementation is correct,<span style="color:red"> while the given implementation gives the wrong output.
 
 **Expected Output:** <span style="color:gold">[]
 
@@ -63,7 +63,7 @@ _From the CommonMark demo site_
 
 * The bug is that the given implementation of MarkdownParse seems to ignore the backtick's presence within the link structure. It believes that the backtick is also included within the link, rather than a symbol that changes the text format.
 
-    <span style="color:aqua">--> The code doesn't check for special characters that affect text formatting, so incorrectly believes it is part of the link.
+    <span style="color:magenta">--> The code doesn't check for special characters that affect text formatting, so incorrectly believes it is part of the link.
 
 **<span style="color:lime">Potential Solution: </span>**
 1.  Add a conditional statement that checks to see if there are backticks present within the parentheses. *(It could be in the form of a helper method or an if statement.)*  
@@ -97,7 +97,7 @@ _From the  CommonMark demo site_
 
 * The bug is that my code incorrectly believes that links must contain a `.` within them, so it excludes any substrings that do not contain a period. It will ignore any string without a period, which the commonmark.js dingus doesn't do. 
 
-    <span style="color:aqua">-->My code is quite narrow and specific to certain cases, so it has a small net of correctly catching false inputs. It has an assumption of what structures links should be, which stops it from matching a real parser.
+    <span style="color:magenta">-->My code is quite narrow and specific to certain cases, so it has a small net of correctly catching false inputs. It has an assumption of what structures links should be, which stops it from matching a real parser.
 
 **Ideally the code change would occur here**
 
@@ -113,7 +113,7 @@ If the highlighted text were removed, I believe my implementation would add some
 
 * I think that the `<>` and the `()` pairs are being meshed in a way that makes the code buggy with where the parentheses are in terms of where the `<>` sets are.
 
-    <span style="color:aqua">--> The implementation has a flaw in how it detects parentheses and special text formatting pairs that makes it exclude certain characters, quite possibly due to a mismatch.
+    <span style="color:magenta">--> The implementation has a flaw in how it detects parentheses and special text formatting pairs that makes it exclude certain characters, quite possibly due to a mismatch.
 
 **Ideally the code change would occur here**
 
