@@ -1,4 +1,4 @@
-# **<span style="color:Blue">Code Comparison and Debugging**
+# <span style="color:Blue">Code Comparison and Debugging
 
 I did find a couple tests with different results. However, I needed to rename several files in the directory, and exclude them, due to some of them causing infinite loops. I used **vimdiff** to view differences between the results of both my markdown parser and the provided parser, and **manually picked out two**.
 
@@ -7,7 +7,7 @@ I did find a couple tests with different results. However, I needed to rename se
 
     *I looked at the preview of the markdown and determined expected values by hovering over any of the blue links.*  
 
-* **Commands used:** 
+* Commands used:
 ```
 $ cd my-markdown-parser/
 $ bash script.sh > results.txt
