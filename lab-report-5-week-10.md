@@ -7,7 +7,8 @@ I did find a couple tests with different results. However, I needed to rename se
 
     *I looked at the preview of the markdown and determined expected values by hovering over any of the blue links.*  
 
-* Commands used:
+* Commands used:  
+   
 ```
 $ cd my-markdown-parser/
 $ bash script.sh > results.txt
@@ -16,7 +17,7 @@ $ cd cse15ls2p22-markdown-parser/
 $ bash script.sh > results.txt 
 
 $ vimdiff my-markdown-parser/results.txt cse15lsp22-markdown-parser/results.txt
-```
+```  
 
 
 *(saving the outputs to `result.txt` file)*
